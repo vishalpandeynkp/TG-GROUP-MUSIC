@@ -31,4 +31,4 @@ else:
     _mongo_async_ = _mongo_client_(config.MONGO_DB_URI)
     _mongo_sync_ = MongoClient(config.MONGO_DB_URI)
     mongodb = _mongo_async_.VIPMUSIC
-    pymongodb = _mongo_sync_VIPMUSIC
+    pymongodb = _mongo_sync_.VIPMUSIC
